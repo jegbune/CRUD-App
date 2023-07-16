@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import './CheckoutPage.css'
 
 const CheckoutPage = () => {
   const [firstName, setFirstName] = useState('');
