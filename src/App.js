@@ -3,11 +3,13 @@ import './App.css';
 import Calculator from './calculator';
 import CheckoutPage from './CheckoutPage';
 import CartPage from './CartPage';
+import EcommercePage from './EcommercePage'
 
 function App() {
   return (
     <div className="App">
-      <CartPage />
+      <EcommercePage />
+      {/* <CartPage /> */}
       {/* <CheckoutPage /> */}
       {/* <Calculator /> */}
       

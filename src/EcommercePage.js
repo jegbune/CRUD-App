@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './E-commercePage.css';
+import './EcommercePage.css';
 
 const productsData = [
   {
