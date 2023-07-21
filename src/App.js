@@ -8,6 +8,7 @@ import EcommercePage from './EcommercePage'
 function App() {
   return (
     <div className="App">
+      
       <EcommercePage />
       {/* <CartPage /> */}
       {/* <CheckoutPage /> */}
