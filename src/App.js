@@ -4,12 +4,14 @@ import Calculator from './calculator';
 import CheckoutPage from './CheckoutPage';
 import CartPage from './CartPage';
 import EcommercePage from './EcommercePage'
+import Navbar from './components/Navbar';
+import { Routes } from 'react-router-dom';
 
 function App() {
   return (
     <div className="App">
-      
-      <EcommercePage />
+      <Navbar />
+      {/* <EcommercePage /> */}
       {/* <CartPage /> */}
       {/* <CheckoutPage /> */}
       {/* <Calculator /> */}
