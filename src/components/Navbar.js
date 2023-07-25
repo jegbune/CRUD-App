@@ -8,17 +8,20 @@ class Navbar extends Component {
         super(props)
 
         this.state = {
-            
+            clicked : false
         }
     }
 
-    clicked 
+    
+    handleClick = () => {
+            this.setSet({clicked: !this.state.clicked })
+    }
     render() {
         return (
             <nav className='NavbarItems'>
                 <h1 className='navbar-logo'>Trippy</h1>
 
-                <div className='menu-icons'>
+                <div className='menu-icons' onClick={this.handleClick}>
                     <i className={this.state.clicked ? 'fas fa-times' :  'fas fa-bars'}></i>
                 </div>
 
