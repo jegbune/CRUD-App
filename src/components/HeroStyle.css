@@ -10,6 +10,9 @@
     position: relative;
 }
 
+.hero-mid h1 {
+    padding-top: 4rem;
+ }
 .hero-mid .hide {
     display: none;
 }
