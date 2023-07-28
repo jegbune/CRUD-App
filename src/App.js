@@ -1,9 +1,9 @@
 import logo from './logo.svg';
 import './App.css';
 // import Calculator from './calculator';
-// import CheckoutPage from './CheckoutPage';
-// import CartPage from './CartPage';
-// import EcommercePage from './EcommercePage'
+import CheckoutPage from './CheckoutPage';
+import CartPage from './CartPage';
+import EcommercePage from './EcommercePage'
 import Navbar from './components/Navbar';
 import Home from './routes/Home';
 import { Route, Routes } from 'react-router-dom';
