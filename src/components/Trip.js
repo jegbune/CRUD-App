@@ -1,7 +1,7 @@
 import React from 'react'
 import TripData from './TripData'
 import './TripStyles'
-
+import image1 from '../assets/img1.jpg'
 
 function Trip() {
     return (
@@ -12,7 +12,7 @@ function Trip() {
         <p> Your can discover unique destination using Google Maps.</p>
 
         <TripData 
-        image = ''
+        image = {image1}
         title = 'Trip in Indonesia'
         desc = 'Indonesia officially the Republic of Indonesia, is a country in Southeast Asia and Oceania between the indian and Pacific oceans. it consists of over 17,000 islands, including Sumatra, Java, Sulwest, and parts of Bornea and New Guinea'
 
