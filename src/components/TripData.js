@@ -1,13 +1,13 @@
 import React from 'react'
-import './TripStyles'
+import './TripStyles.css'
 function TripData(props) {
     return (
          <div class= 't-card'>
-            <img alt='Trip-image' src={props.image} />
-            <h1>
-                {props.title}
-            </h1>
-            <p>{props.desc}</p>
+            <img alt='t-image' src={props.image} />
+            <h4>
+                {props.heading}
+            </h4>
+            <p>{props.text}</p>
          </div>
     )
 }
